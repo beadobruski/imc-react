@@ -1,0 +1,60 @@
+.app {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+span {
+  margin: 12px 0;
+}
+
+.area-input {
+  width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.area-input input {
+  width: 100%;
+  margin-bottom: 12px;
+  background: #121212;
+
+  height: 46px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 12px;
+
+  color: #fff;
+  font-size: 18px;
+}
+
+.area-input button {
+  width: 100%;
+  height: 46px;
+  background: #357aff;
+
+  border: none;
+  border-radius: 5px;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 32px;
+}
